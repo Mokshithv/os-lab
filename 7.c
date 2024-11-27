@@ -94,8 +94,7 @@ return pageFaults; // Return total number of page faults
 int main() { 
 // New page reference sequence 
 int pageReferences[] = {7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2}; 
-int n = sizeof(pageReferences) / sizeof(pageReferences[0]); // Number of page 
-references 
+int n = sizeof(pageReferences) / sizeof(pageReferences[0]); // Number of page references 
 int capacity = MAX_FRAMES; // Number of frames in memory 
 printf("FIFO Page Replacement:\n"); 
 // Simulate FIFO page replacement algorithm 
